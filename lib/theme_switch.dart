@@ -79,7 +79,7 @@ class ThemeSwitchState extends State<ThemeSwitch> {
               top: padding,
               left: currentState == 0
                   ? padding
-                  : width - (padding * 2) - toggleRadius,
+                  : width - padding - toggleRadius,
               child: Container(
                 width: toggleRadius,
                 height: toggleRadius,
